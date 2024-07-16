@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB TO LEAD FORM</title>
     <link rel="Stylesheet" href="style.css"/>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="script.js"></script>
     
 </head>
@@ -16,6 +17,7 @@
  onsubmit="beforesubmit()">
 
  <input type=hidden name="oid" value="00D5i00000CyxlE">
+ <input type=hidden name='captcha_settings' value='{"keyname":"WebToKey","fallback":"true","orgId":"00D5i00000CyxlE","ts":""}'>
  <input type=hidden name="retURL" value="https://prataptagirisa.github.io/Web-To-Lead/thanks.html"/>
  <input type=hidden name="Lead_Date__c" class="outputdate"/>
 
@@ -47,6 +49,8 @@
 
 <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NJ3000000WOBs" name="00NJ3000000WOBs" size="12" type="text" /></span><br>    -->
 <input type="submit" name="submit" class="submit">    
+
+<div class="g-recaptcha" data-sitekey="6LeRfhEqAAAAAOpFKDrHQa-ImV71KSo_eDHiZQ1-"></div><br>
 </form>
     
 </body>
